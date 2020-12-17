@@ -1,0 +1,42 @@
+.EmployeeDialog {
+  .TopContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Title {
+
+    }
+    .Icon {
+      height: 35px;
+      width: 35px;
+      position: absolute;
+      justify-self: center;
+      right: 15px;
+    }
+  }
+  .EmployeeForm{
+    display: flex;
+    flex-direction: column;
+    .PersonalInfo {
+      margin-top: 20px;
+    }
+    .InfoInput {
+      margin: 20px;
+      .InputIcon {
+        right: 0;
+        color: #646464;
+      }
+    }
+    .ManagerCheckbox {
+      margin-left: 20px;
+    }
+    .Button {
+      margin: 20px;
+      background: #3f51b5;
+      color: whitesmoke;
+    }
+    Button:hover {
+      background: #303F9F;
+    }
+  }
+}
