@@ -30,6 +30,7 @@ export default class AddNewEmployeeCard extends Component<any, any> {
       });
   };
 
+  
   render() {
     const { props } = this;
     return (
